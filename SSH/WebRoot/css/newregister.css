@@ -1,0 +1,194 @@
+body{
+	background-color:#f0f0f0;
+	color:#595959;
+}
+.clear{
+	height:0;
+	font-size:0;
+	line-height:0;
+	clear:both;
+	overflow:hidden;
+}
+/************* header *******************/
+#header{
+	height:70px;
+	background:#B20000;
+	width:100%;
+	margin-bottom:0;
+}
+
+#header-inner{
+	position:relative;
+	width:990px;
+	height:70px;
+	margin:0 auto;
+}
+.logo{
+	padding-top:30px;
+	margin-left:50px;
+}
+/****************end for header**********/
+
+/****************maincontent***********/
+
+#maincontent{
+	width:990px;
+	margin:0 auto;
+	padding-top:49px;
+}
+.register-main{
+	border:1px solid #d5d5d5;
+	box-shadow:1px 1px 1px #dce0de;
+	background-color:#FFF;
+	width:988;
+}
+#maincontent h3{
+	height:47px;
+	border:1px solid #FFF;
+	border-bottom-color:#e3e3e3;
+	background-color:#f0f0f0;
+	padding-left:30px;
+	color:#171717;
+	font:22px/47px Microsoft Yahei;
+}
+.register-left{
+	width:655px;
+	padding:35px 12px 25px 25px;
+	float:left;
+	box-shadow:5px 0px 5px #dce0de;
+	bordr-right:1px solid #f0f0f0;
+	
+}
+.register-form	th{
+	padding:16px 0 10px;
+	font-size:14px;
+	width:100px;
+	font-wight:normal;
+	text-align:right;
+	color:#444;
+	vertical-align:top;
+}
+.register-form .myinput {
+	width:248px;
+	height:32px;
+	padding-left:10px;
+	border:1px solid #cfcfcf;
+	font-size:14px;
+	
+}
+.register-form td{
+	padding:10px 8px;
+	vertical-align:middle;
+}
+.register-right{
+	width:260px;
+	float:right;
+	padding:55px 0 0 24px;
+	color:#666;
+	
+}
+/***form validate****/
+em { font-weight: nomal; padding-right: 1em;font-style:italic; }
+em.error {
+  background:url("../images/unchecked.gif") no-repeat 4px 0px;
+  padding-left: 20px;
+  color:red;
+}
+em.success {
+  background:url("../images/checked.gif") no-repeat 4px 0px;
+  padding-left: 16px;
+}
+/***end for ***/
+
+/**a link button ***/
+#maincontent  a.button {
+    background: transparent url('../images/bg_button_a.gif') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-top:6px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+#maincontent  a.button span {
+    background: transparent url('../images/bg_button_span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+#maincontent a.button:active {
+    background-position: bottom right;
+    color: rgb(224, 18, 35);
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+#maincontent a.button:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+}
+/**end for a link button**/
+
+/**form submit style**/
+#registerform .btn {
+	
+	margin-top:10px;
+	background:rgb(91, 113, 158);
+	color:#fff;
+	font-family: Tahoma, Geneva, sans-serif;
+	height:40px;
+	width:200px;
+	text-align:center;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 1p solid #999;
+	font-size:14px;
+}
+#registerform .btn:hover {
+	background:rgb(80, 100, 120);
+	
+}
+
+/**end for form submit style**/
+
+/**protocol**/
+#registerform a{
+ 	font-size:12px;
+ 	font-family:'宋体';
+ 	text-decoration:none;
+ 	color:#506eaa;
+ }
+#registerform a:hover{
+ 	text-decoration:underline;
+ 	color:red;
+ }
+#registerform a:visited{
+ 	color:red;
+ }
+/**end for protocol**/
+
+/********************footer****************/
+#footer{
+
+	width:100%;
+	
+	margin:0 auto;
+	margin-top:10px;
+	height:40px;
+	padding-top:20px;
+	text-align:center;
+	z-index:0;
+	overflow:hidden;
+	border:1px solid #D5D7D7;
+}
+#footer p{
+	display:block;
+	color:rgb(172, 168, 168);
+	font-size:12px;
+	
+}

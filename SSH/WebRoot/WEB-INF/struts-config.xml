@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="loginForm" type="com.exchange.struts.form.LoginForm" />
+    <form-bean name="registerForm" type="com.exchange.struts.form.RegisterForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action
+      attribute="loginForm"
+      input="/user/login.jsp"
+      name="loginForm"
+      path="/login"
+      scope="request"
+      type="com.exchange.struts.action.LoginAction">
+      <set-property property="cancellable" value="true" />
+      <forward name="login" path="/login.jsp"/>
+      <forward name="loginSuccess" path="/user/loginsuccess.jsp" />
+      <forward name="loginFail" path="/user/loginFail.jsp" />
+    </action>
+    <action
+      attribute="registerForm"
+      input="/newregister.jsp"
+      name="registerForm"
+      path="/register"
+      scope="request"
+      type="com.exchange.struts.action.RegisterAction">
+      <set-property property="cancellable" value="true" />
+       <forward name="welcome" path="/index.jsp" />
+       <forward name="register" path="/newregister.jsp"/>
+    </action>
+        <action
+      path="/checkidcardno"
+      scope="request"
+      type="com.exchange.struts.action.CheckIdCardNoAction">
+      <set-property property="cancellable" value="true" />
+    </action>
+
+  </action-mappings>
+
+  <message-resources parameter="com.exchange.struts.ApplicationResources" />
+</struts-config>
+

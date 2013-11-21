@@ -1,0 +1,134 @@
+
+/* header */
+#header{
+	height:70px;
+	background:#B20000;
+	width:100%;
+	margin-bottom:0;
+}
+
+#header-inner{
+	position:relative;
+	width:990px;
+	height:70px;
+	margin:0 auto;
+}
+.logo{
+	padding-top:30px;
+	margin-left:50px;
+}
+
+
+
+/*content*/
+#content{
+	width:990px;
+	margin:0 auto;
+	padding-top:49px;
+}
+#content .pic{
+	width:448px;
+	float:left;
+	display:inline;
+}
+#content .form{
+	float:right;
+	width:460px;
+	display:inline;
+}
+
+
+#content form {
+	background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+	background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+	margin:auto;
+	position:relative;
+	width:350px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: '宋体';
+	line-height: 24px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:10px;
+	border: 1px solid #999;
+	border: inset 1px solid #333;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+#content input {
+	width:300px;
+	border: 1px solid #999;
+	height: 28px;
+	margin:2px;
+	display:block;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+#content  input:focus {
+	border: 1px solid #09C;
+}
+#content .btn {
+	
+	margin-top:10px;
+	background:#F30;
+	color:#fff;
+	font-family: Tahoma, Geneva, sans-serif;
+	height:30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1p solid #999;
+}
+#content .btn:hover {
+	background:#fff;
+	color:#000;
+}
+
+#content .hidden{
+ display:none;
+}
+
+#wrongmsgshow{
+	color:red;
+}
+.clear{
+ clear:both;
+}
+
+/**validate form**/
+#content em {
+	 font-weight: bold;
+	 font-style:itaic;
+	 vertical-align: top; 
+	 color:red;
+}
+
+
+
+
+/*footer*/
+
+#footer{
+
+	width:100%;
+	margin:0 auto;
+	height:20px;
+	text-align:center;
+	position:absolute;
+	bottom:0px;
+	z-index:0;
+	overflow:hidden;
+}
+#footer p{
+	display:block;
+	color:rgb(172, 168, 168);
+	font-size:12px;
+	
+}
